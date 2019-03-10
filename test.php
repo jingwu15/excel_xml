@@ -1,5 +1,6 @@
 <?php
-require dirname(__FILE__) . '/src/excel/excel_xml.php';
+//require dirname(__FILE__) . '/src/excel/excel_xml.php';
+require dirname(__FILE__) . '/vendor/autoload.php';
 use Jingwu\Excel\Excel_XML;
 
 $data = array(
